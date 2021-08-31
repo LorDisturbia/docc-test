@@ -1,6 +1,7 @@
 import Vapor
 
 /// Vapor middleware that serves files from a DocC archive.
+/// Shamelessly copied from https://swiftpack.co/package/JosephDuffy/VaporDocC
 public struct VaporDocCMiddleware: Middleware {
   /// The path to the DocC archive.
   public let archivePath: URL
