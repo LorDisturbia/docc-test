@@ -1,4 +1,4 @@
-#!/usr/bin/env zsh
+#!/usr/bin/env zsh -o pipefail
 
 echo "To run this, you need Xcode 13.0. Make sure you run \`sudo xcode-select -s /path/to/Xcode13.app\`"
 
